@@ -58,7 +58,11 @@ class WebAuth0AuthClient implements IAuthClient {
 
   constructor(
     options: IWebAuth0AuthClientOptions,
-    storage: IStorage = window.localStorage,
+    storage: IStorage = typeof window !== 'undefined' ? window.localStorage : {
+      getItem: (key) => (''),
+      setItem: (key, value) => (true),
+      removeItem: (key) => (true),
+    },
     storageKey: string = 'auth',
   ) {
     throwIfMissingRequiredParameters(['domain', 'clientId', 'redirectUri'], PACKAGES.WEB_AUTH0_AUTH_CLIENT, options);
@@ -163,9 +167,11 @@ class WebAuth0AuthClient implements IAuthClient {
   }
 
   public logout(options: object = {}): void {
-    window.addEventListener('unload', () => {
-      this.purgeState();
-    });
+    if ( typeof window !== 'undefined' ) {
+      window.addEventListener('unload', () => {
+        this.purgeState();
+      });
+    }
 
     this.logoutHasCalled = true;
 
