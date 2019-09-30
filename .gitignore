@@ -20,4 +20,3 @@ tsconfig.tsbuildinfo
 package.json.lerna_backup
 .graphqlconfig
 schema.graphql
-.npmrc
