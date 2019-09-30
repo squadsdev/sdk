@@ -1,7 +1,7 @@
 {
-  "name": "@joinsquads/auth",
+  "name": "@8base/auth",
   "version": "0.37.2",
-  "repository": "https://github.com/squadsdev/sdk",
+  "repository": "https://github.com/8base/sdk",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "scripts": {

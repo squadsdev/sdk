@@ -1,8 +1,8 @@
 {
-  "name": "@joinsquads/validate",
+  "name": "@8base/validate",
   "version": "0.37.2",
-  "repository": "https://github.com/squadsdev/sdk",
-  "homepage": "https://github.com/squadsdev/sdk/tree/master/packages/validate#readme",
+  "repository": "https://github.com/8base/sdk",
+  "homepage": "https://github.com/8base/sdk/tree/master/packages/validate#readme",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "scripts": {
