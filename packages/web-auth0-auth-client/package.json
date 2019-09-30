@@ -1,9 +1,9 @@
 {
-  "name": "@8base/web-auth0-auth-client",
+  "name": "@joinsquads/web-auth0-auth-client",
   "version": "0.37.2",
-  "author": "8base",
-  "repository": "https://github.com/8base/sdk",
-  "homepage": "https://github.com/8base/sdk/tree/master/packages/web-auth0-auth-client#readme",
+  "author": "8base & Squads",
+  "repository": "https://github.com/squadsdev/sdk",
+  "homepage": "https://github.com/squadsdev/sdk/tree/master/packages/web-auth0-auth-client#readme",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "scripts": {

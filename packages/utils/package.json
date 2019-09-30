@@ -1,8 +1,8 @@
 {
-  "name": "@8base/utils",
+  "name": "@joinsquads/utils",
   "version": "0.37.2",
-  "repository": "https://github.com/8base/sdk",
-  "homepage": "https://github.com/8base/sdk/tree/master/packages/utils#readme",
+  "repository": "https://github.com/squadsdev/sdk",
+  "homepage": "https://github.com/squadsdev/sdk/tree/master/packages/utils#readme",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
