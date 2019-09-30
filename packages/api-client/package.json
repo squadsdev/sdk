@@ -1,8 +1,8 @@
 {
-  "name": "@8base/api-client",
+  "name": "@joinsquads/api-client",
   "version": "0.37.2",
-  "repository": "https://github.com/8base/sdk",
-  "homepage": "https://github.com/8base/sdk/tree/master/packages/api-client#readme",
+  "repository": "https://github.com/squadsdev/sdk",
+  "homepage": "https://github.com/squadsdev/sdk/tree/master/packages/api-client#readme",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "scripts": {
